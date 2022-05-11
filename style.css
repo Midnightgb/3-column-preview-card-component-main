@@ -6,3 +6,11 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+body {
+  font-size: 15px;
+}
+
+h1 {
+  font-family: "Big Shoulders Display", sans-serif;
+}
