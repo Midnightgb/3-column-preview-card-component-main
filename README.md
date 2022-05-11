@@ -21,8 +21,8 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ### Links
 
-- Solution URL: [Solution]()
-- Live Site URL: [Live preview]()
+- Solution URL: [Solution](https://github.com/Midnightgb/3-column-preview-card-component-main)
+- Live Site URL: [Live preview](https://midnightgb.github.io/3-column-preview-card-component-main/)
 
 ## My process
 

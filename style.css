@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+@media (max-width: 375px) {
+  .✨ {
+    margin: 5.3125rem auto;
+  }
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -8,6 +16,10 @@
   color: hsl(228, 45%, 44%);
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-size: 15px;
 }
@@ -15,10 +27,24 @@ body {
 h1 {
   font-family: "Big Shoulders Display", sans-serif;
   color: hsl(0, 0%, 95%);
+  font-weight: 700;
+  padding-left: 3rem;
+  padding-top: 1rem;
 }
 
 p {
+  font-family: "Lexend Deca", sans-serif;
   color: hsla(0, 0%, 100%, 0.75);
+  font-weight: 400;
+  padding-left: 3rem;
+  padding-right: 4rem;
+  text-align: left;
+}
+
+img {
+  position: relative;
+  padding-top: 3rem;
+  padding-left: 3rem;
 }
 
 .✨ {
