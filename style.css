@@ -1,6 +1,7 @@
 .attribution {
   font-size: 11px;
   text-align: center;
+  padding-top: 10rem;
 }
 
 .attribution a {
@@ -13,4 +14,37 @@ body {
 
 h1 {
   font-family: "Big Shoulders Display", sans-serif;
+  color: hsl(0, 0%, 95%);
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.✨ {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.🚗 {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 0.6rem;
+  border-bottom-left-radius: 0.6rem;
+  width: 20rem;
+  height: 30rem;
+}
+
+.🚙 {
+  background-color: hsl(184, 100%, 22%);
+  width: 20rem;
+  height: 30rem;
+}
+
+.🚐 {
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 0.6rem;
+  border-bottom-right-radius: 0.6rem;
+  width: 20rem;
+  height: 30rem;
 }
