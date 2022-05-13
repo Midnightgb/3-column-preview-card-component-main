@@ -6,78 +6,98 @@
   }
 }
 
+:root {
+  --BrightOrange: hsl(31, 77%, 52%);
+  --DarkCyan: hsl(184, 100%, 22%);
+  --VeryDarkCyan: hsl(179, 100%, 13%);
+  --TransparentWhite: hsla(0, 0%, 100%, 0.75);
+  --VeryLightGray: hsl(0, 0%, 95%);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
-  padding-top: 10rem;
 }
 
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
 
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-size: 15px;
+html {
+  font-size: 16px;
 }
 
 h1 {
   font-family: "Big Shoulders Display", sans-serif;
-  color: hsl(0, 0%, 95%);
+  color: var(--VeryLightGray);
   font-weight: 700;
-  padding-left: 3rem;
-  padding-top: 1rem;
+  padding: .5rem 3.1rem;
+  margin-bottom: -1rem;
 }
 
 p {
   font-family: "Lexend Deca", sans-serif;
-  color: hsla(0, 0%, 100%, 0.75);
-  font-weight: 400;
-  padding-left: 3rem;
-  padding-right: 4rem;
-  text-align: left;
+  color: var(--TransparentWhite);
+  line-height: 2rem;
+  margin-bottom: .5rem;
+  padding: 1rem 3.1rem;
 }
 
 img {
   position: relative;
-  padding-top: 3rem;
-  padding-left: 3rem;
+  padding: 3rem 3.1rem;
+  margin-bottom: -2rem;
 }
 
 .✨ {
+  width: 100%;
+  height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .🚗 {
-  background-color: hsl(31, 77%, 52%);
+  background-color: var(--BrightOrange);
   border-top-left-radius: 0.6rem;
   border-bottom-left-radius: 0.6rem;
-  width: 20rem;
-  height: 30rem;
+  width: 25rem;
+  height: 35rem;
 }
 
 .🚙 {
-  background-color: hsl(184, 100%, 22%);
-  width: 20rem;
-  height: 30rem;
+  background-color: var(--DarkCyan);
+  width: 25rem;
+  height: 35rem;
 }
 
 .🚐 {
-  background-color: hsl(179, 100%, 13%);
+  background-color: var(--VeryDarkCyan);
   border-top-right-radius: 0.6rem;
   border-bottom-right-radius: 0.6rem;
-  width: 20rem;
-  height: 30rem;
+  width: 25rem;
+  height: 35rem;
 }
 
-.💬 {
+button {
   font-family: "Lexend Deca", sans-serif;
-  color: hsla(0, 0%, 100%, 0.75);
-  text-align: left;
-  padding: 5rem;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  margin: .5rem 5rem;
+  padding: 1rem 2rem;
+  border-radius: 4rem;
+}
+
+.🚗 button {
+  color: var(--BrightOrange);
+}
+
+.🚙 button {
+  color: var(--DarkCyan);
+}
+
+.🚐 button {
+  color: var(--VeryDarkCyan);
 }
