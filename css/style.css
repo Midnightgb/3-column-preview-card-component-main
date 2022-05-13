@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
 
-@media (max-width: 375px) {
-  .✨ {
-    margin: 5.3125rem auto;
-  }
-}
-
 :root {
   --BrightOrange: hsl(31, 77%, 52%);
   --DarkCyan: hsl(184, 100%, 22%);
@@ -109,4 +103,85 @@ button:hover {
   border-radius: 3rem;
   font-size: .780rem;
   color: hsla(0, 0%, 100%, 0.75);
+}
+
+@media (max-width: 375px) {
+  .✨ {
+    padding-top: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .attribution {
+    font-size: 13px;
+    text-align: center;
+    padding-top: 30rem;
+  }
+
+  .🚗 {
+    border-top-left-radius: 0.6rem;
+    border-top-right-radius: 0.6rem;
+    border-bottom-left-radius: 0rem;
+  }
+
+  .🚐 {
+    border-top-right-radius: 0rem;
+    border-bottom-right-radius: 0.6rem;
+    border-bottom-left-radius: 0.6rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .✨ {
+    padding-top: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .attribution {
+    font-size: 13px;
+    text-align: center;
+    padding-top: 13rem;
+  }
+
+  .🚗 {
+    border-top-left-radius: 0.6rem;
+    border-top-right-radius: 0.6rem;
+    border-bottom-left-radius: 0rem;
+  }
+
+  .🚐 {
+    border-top-right-radius: 0rem;
+    border-bottom-right-radius: 0.6rem;
+    border-bottom-left-radius: 0.6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .✨ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .attribution {
+    font-size: 13px;
+    text-align: center;
+  }
+
+  p {
+    line-height: 1.5rem;
+    padding: 1rem 4rem;
+    margin-bottom: -1.7rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .🚐 p {
+    margin-bottom: -1rem;
+  }
 }
